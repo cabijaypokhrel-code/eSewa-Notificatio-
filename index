@@ -1,1 +1,47 @@
 
+eSewa-Notificatio-/
+├── src/
+│   ├── types/index.ts
+│   ├── lib/utils.ts
+│   ├── lib/mock-data.ts          ← shown above
+│   ├── store/index.ts
+│   ├── app/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── dashboard/page.tsx
+│   │   ├── mentions/page.tsx
+│   │   ├── analytics/page.tsx
+│   │   ├── competitor/page.tsx
+│   │   ├── ai-insights/page.tsx
+│   │   ├── alerts/page.tsx
+│   │   ├── influencers/page.tsx
+│   │   ├── reputation/page.tsx
+│   │   ├── reports/page.tsx
+│   │   ├── settings/page.tsx
+│   │   └── api/
+│   │       ├── mentions/route.ts
+│   │       ├── analytics/route.ts
+│   │       ├── alerts/route.ts
+│   │       └── ai/insights/route.ts
+│   └── components/
+│       ├── ui/AppShell.tsx
+│       ├── ui/sidebar.tsx
+│       ├── ui/topbar.tsx
+│       ├── alerts/AlertPanel.tsx
+│       ├── dashboard/MetricCard.tsx
+│       ├── dashboard/BrandHealthGauge.tsx
+│       ├── dashboard/TopInfluencers.tsx
+│       ├── dashboard/TrendingTopics.tsx
+│       ├── mentions/MentionCard.tsx
+│       ├── charts/SentimentChart.tsx
+│       ├── charts/VolumeChart.tsx
+│       └── charts/PlatformBreakdown.tsx
+├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
+├── postcss.config.mjs
+├── next.config.ts
+├── Dockerfile
+├── docker-compose.yml
+└── .github/workflows/claude.yml
